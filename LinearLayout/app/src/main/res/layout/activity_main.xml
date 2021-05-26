@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Hello World!"
+        app:autoSizeTextType="uniform"
+        tools:text="@tools:sample/date/day_of_week" />
+
+    <Button
+        android:layout_width="356dp"
+        android:layout_height="123dp"
+        android:layout_margin="20dp"
+        android:text="Sample Button" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="112dp"
+        android:layout_height="320dp"
+        android:layout_margin="20dp"
+        android:layout_weight="100"
+        android:autoText="false"
+        android:background="#CCF1F6"
+        android:fontFamily="sans-serif"
+        android:text="Text View 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="14sp"
+        app:autoSizeTextType="none" />
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name = "UI_Basics"
+include ':app'
